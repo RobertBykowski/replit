@@ -1,10 +1,18 @@
-def szescian(x):
-  return x*x*x
+from turtle import Turtle, Screen
+from prettytable import PrettyTable
 
-def main():
-  liczby = list (map(szescian, range(1,15)))
-  print(liczby)
-main()
+# bob = Turtle()
+# bob.shape("turtle")
+# bob.turtlesize(1)
 
-  
-  
+# bob.forward(100)
+
+
+# my_screan = Screen()
+# print(my_screan.canvheight)
+# my_screan.exitonclick()
+
+table = PrettyTable()
+table.add_column("Nazwisko", ["Ola","Beata","Tomasz"])
+table.add_column("Wiek", ["12","37","56"])
+print(table)
