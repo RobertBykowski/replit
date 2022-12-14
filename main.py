@@ -13,6 +13,8 @@ from prettytable import PrettyTable
 # my_screan.exitonclick()
 
 table = PrettyTable()
+
 table.add_column("Nazwisko", ["Ola","Beata","Tomasz"])
 table.add_column("Wiek", ["12","37","56"])
+table.align = "l"
 print(table)
